@@ -1,0 +1,40 @@
+.content {
+    width: 100%;
+    margin-top: -1.7rem;
+    gap: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--gray-100);
+
+}
+
+.content > input { 
+    width: 39.875rem;
+    height: 54px;
+    padding: 16px;
+    border-radius: 8px;
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    color: var(--gray-100);
+}
+
+.content > button {
+    height: 54px;
+    width: 5rem;
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.content > button:hover {
+    background: var(--blue);
+    transition: 0.4s;
+}
+

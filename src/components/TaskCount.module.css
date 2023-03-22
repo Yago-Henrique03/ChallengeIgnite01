@@ -1,0 +1,40 @@
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.CreateCount {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.CreateCount strong {
+    color: var(--blue);
+}
+
+.CreateCount p {
+    background: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 999px;
+}
+
+.ConcludeCount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.ConcludeCount  strong {
+    color: var(--purple);
+}
+
+.ConcludeCount p {
+    background: var(--gray-400);
+    padding: 2px 8px;
+    border-radius: 999px;
+}
